@@ -1,0 +1,13 @@
+# ----------------------
+# Flask
+# ----------------------
+flask
+flask-wtf
+flask-sqlalchemy
+psycopg2
+werkzeug
+
+# ----------------------
+# Production Server
+# ----------------------
+gunicorn
