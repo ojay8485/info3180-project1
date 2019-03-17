@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 application = Flask(__name__)
 application.config['SECRET_KEY'] = "change this to be a more random key"
 application.config['UPLOAD_FOLDER'] = 'app/static/profiles'
-application.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://pxewwkkroamxtb:d6adf4b5cc373fef4358993f0898a938f04759882392cc6a39daf588c8ab9a4e@ec2-107-20-233-240.compute-1.amazonaws.com:5432/d204k8m4akiu0a"
+application.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://zuhhronmafyzwe:7f46727df561c73a7e6d29d8ebb8b6efabf3e6cf70570d374fe5c4bde8450ac1@ec2-50-19-109-120.compute-1.amazonaws.com:5432/d1v4jugmdblkhh"
 db = SQLAlchemy(application)
 Base = db.Model
 session = db.session
